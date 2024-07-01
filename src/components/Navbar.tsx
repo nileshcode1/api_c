@@ -1,30 +1,4 @@
 
-// import React from "react";
-// import { Link } from "react-router-dom";
-// import { FaUserCircle } from "react-icons/fa";
-
-// const NavBar: React.FC = () => {
-//   return (
-//     <nav className="bg-blue-950 p-4 flex justify-between items-center text-white">
-//       <div className="text-xl font-bold">
-//         <Link to="/" className="hover:text-gray-200">
-//           Log
-//         </Link>
-//       </div>
-//       <div className="text-xl">
-//         <Link to="/profile">
-//           <span style={{ fontSize: "2rem", cursor: "pointer" }}>
-//             <FaUserCircle />
-//           </span>
-//         </Link>
-//       </div>
-//     </nav>
-//   );
-// };
-
-// export default NavBar;
-
-
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useAppState } from "../models/Data";
